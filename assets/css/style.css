@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+}
+
+.maqueta-completa{
+    display: flex;
+    background-color: gray;
+    width: 100vw;
+    height: 100vh;
+}
+
+.chat{
+    background-color: rgb(23, 88, 88);
+    width: 30%;
+}
+
+.networking{
+    background-color: green;
+    width: 70%;
+}
