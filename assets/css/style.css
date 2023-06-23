@@ -39,6 +39,22 @@
     padding-left: 12vw;
 }
 
+.nuevo-chat{
+    padding: 3vh;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    border: 1px solid #BEC1BB;
+}
+
+.nuevochat-btn{
+    background-color: #A491D2;
+    padding: 1vh;
+}
+
+.btn-text{
+    padding: 3.5vw;
+}
+
 .networking{
     background-color: green;
     width: 70%;
