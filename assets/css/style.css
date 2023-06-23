@@ -16,13 +16,18 @@
 
 .img-nombre-estado{
     display: flex;
-    padding: 10px;
+    padding: 5px;
 }
 
 .img-perfil{
     border-radius: 100%;
     width: 20%;
     justify-content: center;
+    padding: 10px;
+}
+
+.profile-data{
+    padding-top: 10px;
 }
 
 .networking{
