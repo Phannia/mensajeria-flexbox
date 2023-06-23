@@ -11,23 +11,30 @@
 
 .chat{
     background-color: rgb(23, 88, 88);
-    width: 30%;
+    width: 30vw;
+    height: 100vh;
 }
 
 .img-nombre-estado{
     display: flex;
-    padding: 5px;
+    padding-top: 1vh;
+    padding-left: 2vw;
 }
 
 .img-perfil{
     border-radius: 100%;
-    width: 20%;
-    justify-content: center;
-    padding: 10px;
+    width: 15%;
+    padding-top: 1vh;
 }
 
 .profile-data{
-    padding-top: 10px;
+    padding-top: 3vh;
+    padding-left: 1vw;
+}
+
+.msg-bars{
+    padding-top: 3vh;
+    padding-left: 12vw;
 }
 
 .networking{
