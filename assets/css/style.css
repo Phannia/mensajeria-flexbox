@@ -1,61 +1,123 @@
 *{
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
+/* Sección main */
 .maqueta-completa{
     display: flex;
-    background-color: gray;
+    flex-direction: row;
     width: 100vw;
     height: 100vh;
 }
 
+/* Sección de chat */
 .chat{
+    display: flex;
     background-color: #fff;
-    width: 30vw;
+    width: 20vw;
     height: 100vh;
+    flex-direction: column;
 }
 
+/* div de usuario que incluye foto, nombre, actividad e iconos */
 .img-nombre-estado{
     display: flex;
-    padding-top: 1vh;
-    padding-left: 2vw;
-    padding-bottom: 1vh;
-    border: 2px solid #BEC1BB;
+    flex-direction:row;
+    align-items: center;
+    border: 1px solid #BEC1BB;
+    justify-content: space-around;
+    height: 10vh;
 }
 
+/* imagen */
 .img-perfil{
     border-radius: 100%;
-    width: 15%;
-    padding-top: 1vh;
+    height: 10vh;
+    padding: 1em;
 }
 
-.profile-data{
-    padding-top: 3vh;
-    padding-left: 1vw;
+/* Div de nombre de usuario y actividad */
+.box-perfil{
+    display: flex;
+    align-items: center;
 }
 
-.msg-bars{
-    padding-top: 3vh;
-    padding-left: 12vw;
-}
-
+/* Div que contiene al botón nuevo chat */
 .nuevo-chat{
-    padding: 3vh;
-    padding-left: 8vw;
-    padding-right: 8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
     border: 1px solid #BEC1BB;
 }
 
+/* Botón Nuevo chat */
 .nuevochat-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #A491D2;
-    padding: 1vh;
+    height: 5vh;
+    width: 12vw;
 }
 
-.btn-text{
-    padding: 3.5vw;
+/* Listado de contactos */
+.lista-chats{
+    display: flex;
+    flex-direction: column;
 }
 
-.networking{
-    background-color: green;
-    width: 70%;
+/* Contenedor de cada contacto */
+.contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 1vw;
+    height: 10vh;
+    border: 1px solid #BEC1BB;
+}
+
+/* Imagen de cada contacto */
+.contacto img{
+    border-radius: 100%;
+    height: 8vh;
+}
+
+/* Contenedor de nombre y último mensaje de cada contacto */
+.info-contacto{
+    padding-left: 1vw;
+}
+
+/* Contenedor de Nertworking */
+.nertworking{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E8EBE4;
+    width: 80vw;
+    height: 100vh;
+}
+
+/* Imagen de nertworking */
+.nertworking img{
+    height: 25vh;
+    padding: 3vh;
+}
+
+/* Título y texto de Nertworking */
+.nertworking-texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* texto p de nertworking */
+.nertworking-texto p{
+    text-align: center;
+    padding-top: 1vh;
+    padding-left: 25vw;
+    padding-right: 25vw;
 }
